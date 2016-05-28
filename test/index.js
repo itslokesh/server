@@ -1,3 +1,4 @@
+var client = require('redis').createClient(process.env.REDIS_URL);
 var chai = require('chai');
 global.expect = chai.expect;
 
