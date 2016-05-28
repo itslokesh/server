@@ -3,7 +3,7 @@ module.exports = function allowCrossDomain(req, res, next) {
   // WARNING - Be careful with what origins you give access to
   var allowedHost = [
     'https://backbonetutorials.com',
-    'https://localhost'
+    'https://ds011442.mlab.com:11442'
   ];
 
   res.header('Access-Control-Allow-Credentials', true);
